@@ -1,0 +1,29 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "seedsU": "node models/seedusers.js",
+    "seedsub": "node models/seedSubCat.js",
+    "seedsp": "node models/seedsProduct.js",
+    "seedssize": "node models/seedSizes.js",
+    "seedsImg": "node models/seedsImg.js",
+    "seedsHL": "node models/seedsHL.js",
+    "seedsColor": "node models/seedsColor.js",
+    "seedsCat": "node models/seedsCategory.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3"
+  }
+}
